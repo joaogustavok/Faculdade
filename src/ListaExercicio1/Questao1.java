@@ -6,8 +6,6 @@ import java.util.Scanner;
 public class Questao1 {
 
     public static void main(String[] args) {
-        int menor ;
-        int maior ;
         Scanner ler = new Scanner(System.in);
         System.out.println("Digite um numero inteiro");
         int a = ler.nextInt();
