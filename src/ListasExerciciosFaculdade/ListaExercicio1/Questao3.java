@@ -1,5 +1,5 @@
 
-package ListaExercicio1;
+package ListasExerciciosFaculdade.ListaExercicio1;
 
 import java.util.Scanner;
 
