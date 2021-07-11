@@ -1,6 +1,7 @@
 package CursoJavaOnline.javacore.introducaoclasses.teste;
 
-import javacore.introducaoclasses.classes.Professor;
+
+import CursoJavaOnline.javacore.introducaoclasses.classes.Professor;
 
 public class ProfessorTeste {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 package CursoJavaOnline.javacore.introducaoclasses.teste;
-import javacore.introducaoclasses.classes.Carro;
+import CursoJavaOnline.javacore.introducaoclasses.classes.Carro;
 
 public class CarroTest {
     public static void main(String[] args) {

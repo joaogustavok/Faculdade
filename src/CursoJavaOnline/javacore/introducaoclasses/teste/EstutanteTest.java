@@ -1,5 +1,5 @@
 package CursoJavaOnline.javacore.introducaoclasses.teste;
-import javacore.introducaoclasses.classes.Estudante;
+import CursoJavaOnline.javacore.introducaoclasses.classes.Estudante;
 
 public class EstutanteTest {
     public static void main(String[] args) {

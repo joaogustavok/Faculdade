@@ -1,6 +1,6 @@
 package CursoJavaOnline.javacore.introducaometodos.teste;
+import CursoJavaOnline.javacore.introducaometodos.classes.Calculadora;
 
-import javacore.introducaometodos.classes.Calculadora;
 
 public class CalculadoraTest {
     public static void main(String[] args) {
