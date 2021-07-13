@@ -1,4 +1,4 @@
-package CursoJavaOnline2;
+package CursoJavaOnline2.Introducao;
 
 public class Aula06EstruturasDeRepeticao02 {
     public static void main(String[] args) {
