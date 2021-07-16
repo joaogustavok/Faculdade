@@ -1,6 +1,6 @@
-package CursoJavaOnline2.Javacore.IntroducaoClasses.Test;
+package CursoJavaOnline2.Javacore.aIntroducaoClasses.Test;
 
-import CursoJavaOnline2.Javacore.IntroducaoClasses.Dominio.Professor;
+import CursoJavaOnline2.Javacore.aIntroducaoClasses.Dominio.Professor;
 
 public class ProfessorTest01 {
     public static void main(String[] args) {

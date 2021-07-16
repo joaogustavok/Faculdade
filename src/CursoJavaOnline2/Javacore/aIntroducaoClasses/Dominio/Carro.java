@@ -1,4 +1,4 @@
-package CursoJavaOnline2.Javacore.IntroducaoClasses.Dominio;
+package CursoJavaOnline2.Javacore.aIntroducaoClasses.Dominio;
 
 public class Carro {
     public String nome;

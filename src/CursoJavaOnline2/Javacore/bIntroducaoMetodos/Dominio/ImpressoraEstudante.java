@@ -1,4 +1,4 @@
-package CursoJavaOnline2.Javacore.IntroducaoMetodos.Dominio;
+package CursoJavaOnline2.Javacore.bIntroducaoMetodos.Dominio;
 
 public class ImpressoraEstudante {
     public void imprime(Estudante estudante){

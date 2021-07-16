@@ -1,6 +1,6 @@
-package CursoJavaOnline2.Javacore.IntroducaoClasses.Test;
+package CursoJavaOnline2.Javacore.aIntroducaoClasses.Test;
 
-import CursoJavaOnline2.Javacore.IntroducaoClasses.Dominio.Carro;
+import CursoJavaOnline2.Javacore.aIntroducaoClasses.Dominio.Carro;
 
 public class CarroTest01 {
     public static void main(String[] args) {
