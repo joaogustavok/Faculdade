@@ -3,7 +3,7 @@ import CursoJavaOnline2.Javacore.dConstrutores.Dominio.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {
-        Anime anime = new Anime("Naruto","Manga",23,"Acao");
+        Anime anime = new Anime("Naruto","Manga",23,"Acao","Warner");
         anime.imprime();
     }
 }
