@@ -5,3 +5,5 @@ POO
 
 Classes é um template pra gerar objetos
 
+  char sexo = entrada.next().charAt(0);
+         Entrada de 1 unico caractere
