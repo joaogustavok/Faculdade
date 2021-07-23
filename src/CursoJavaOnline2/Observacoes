@@ -7,3 +7,11 @@ Classes é um template pra gerar objetos
 
   char sexo = entrada.next().charAt(0);
          Entrada de 1 unico caractere
+
+
+         0 - bloco de inicializacao estatico da superclasse e executado quando a JVM carregar a superclasse
+         1 - Bloco de inicializacao estatico da sub classe e executado quando a JVM carregar classe filha
+         2 - Alocado espaco em memoria pro objeto da superclasse
+         3 - Cada atributo de superclasse e criado e inicializado com valores default ou quer for passado da superclasse
+         4 - bloco de inicializacao da superclasse e executado na ordem que aparece
+         5 - contrutor da superclasse e executado
