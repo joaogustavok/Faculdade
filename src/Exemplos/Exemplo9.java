@@ -16,7 +16,7 @@ public class Exemplo9 {
         if (delta >= 0.0D) {
             double x1 = ((double)(-b) + Math.sqrt(delta)) / 2.0D * (double)a;
             double x2 = ((double)(-b) - Math.sqrt(delta)) / 2.0D * (double)a;
-            JOptionPane.showInputDialog((Component)null, "Delta: " + delta + "\nx1: " + x1 + "\n2x: " + x2);
+            JOptionPane.showInputDialog((Component)null, "Delta: " + delta + "\nx1: " + x1 + "\nx2: " + x2);
         } else {
             JOptionPane.showMessageDialog((Component)null, "Delta não possuí raiz!");
         }
