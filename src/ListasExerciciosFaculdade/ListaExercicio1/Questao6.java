@@ -1,35 +1,36 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 package ListasExerciciosFaculdade.ListaExercicio1;
 
 import java.util.Scanner;
 
 public class Questao6 {
-
     public static void main(String[] args) {
-        float[] peso = new float[10];
-        int[] idade = new int[10];
-        int somaIdade = 0;
-        int contaPessoas = 0;
-
-        int i;
-        for(i = 0; i < peso.length; ++i) {
-            System.out.println("Informe o peso:");
-            Scanner ler = new Scanner(System.in);
-            peso[i] = ler.nextFloat();
-            System.out.println("Informe a idade:");
-            idade[i] = ler.nextInt();
-            somaIdade += idade[i];
-            if ((double)peso[i] > 80.0D) {
-                ++contaPessoas;
-            }
+        Scanner ler = new Scanner(System.in);
+        System.out.println("Digite o seu nome: ");
+        String nome = ler.nextLine();
+        System.out.println("Digite a sua idade: ");
+        int idade = ler.nextInt();
+        System.out.println("Digite o seu sexo: ");
+        System.out.println("Digite M para Masculino");
+        System.out.println("Digite F para Feminino");
+        char sexo = ler.next().charAt(0);
+        System.out.println("Digite a sua altura : ");
+        float altura = ler.nextFloat();
+        if (sexo == 'M' && altura > 1.70 && idade <= 20) {
+            System.out.println(nome + " seu peso ideal: 58.0kg");
+        } else if (sexo == 'M' && altura > 1.70 && idade > 21 && idade <= 39) {
+            System.out.println(nome + " seu peso ideal: 53.0kg");
+        } else if (sexo == 'M' && altura > 1.70 && idade >= 40) {
+            System.out.println(nome + " seu peso ideal: 45.0kg");
+        } else if (sexo == 'M' && altura < 1.70 && idade <= 40) {
+            System.out.println(nome + " seu peso ideal: 50.0kg");
+        } else if (sexo == 'M' && altura < 1.70 && idade > 40) {
+            System.out.println(nome + " seu peso ideal: 58.0kg");
+        } else if (sexo == 'F' && altura > 1.50) {
+            System.out.println(nome + " seu peso ideal: 44.7kg");
+        } else if (sexo == 'F' && altura <= 1.50 && idade >= 35) {
+            System.out.println(nome + " seu peso ideal: 45.0kg");
+        } else if (sexo == 'F' && altura <= 1.50 && idade < 35) {
+            System.out.println(nome + " seu peso ideal: 49.0kg");
         }
-
-        i = somaIdade / idade.length;
-        System.out.println("A media de idade é: " + i);
-        System.out.println("A quantidade de pessoas com mais de 80 kg é: " + contaPessoas);
     }
 }

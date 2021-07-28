@@ -1,4 +1,4 @@
-package ListasExerciciosFaculdade.ListaExercicio1;
+package ListasExerciciosFaculdade.ListaExercicio1_1semestre;
 
 public class Questao2Switch {
     public void escolhe(int opcao){
