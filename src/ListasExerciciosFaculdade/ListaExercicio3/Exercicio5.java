@@ -6,7 +6,7 @@ public class Exercicio5 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         for (int i = 0; i <= 10; i++) {
-            System.out.println("Informe o seu cpf: (somente numeros)");
+            System.out.println("Informe o seu CPF: (somente numeros)");
             double cpf = ler.nextDouble();
             System.out.println("Informe a quantidade de dependentes: ");
             int dependentes = ler.nextInt();
@@ -17,8 +17,11 @@ public class Exercicio5 {
                     salario -= salario * 0.05;
                 }
             }
-            salario -= salario * 0.17;
-            System.out.println(salario);
+            double imposto = salario * 0.17;
+            System.out.println("Seu CPF é: "+cpf);
+            System.out.println("Numero de dependentes: "+dependentes);
+            System.out.println("Imposto de renda:"+imposto);
+
        }
     }
 }
