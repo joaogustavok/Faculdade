@@ -1,27 +1,18 @@
-
-
 package ListasExerciciosFaculdade.ListaExercicio1;
 
 import java.util.Scanner;
 
 public class Questao5 {
-
     public static void main(String[] args) {
-        Double[] preco = new Double[10];
-
-        for(int i = 0; i < preco.length; ++i) {
-            Scanner ler = new Scanner(System.in);
-            System.out.printf("Informe o numero:\n");
-            preco[i] = ler.nextDouble();
+        Scanner ler = new Scanner(System.in);
+        System.out.println("Informe a quantidade de mercadorias: ");
+        int produto = ler.nextInt();
+        double valorMercadoria = 0;
+        for (int i = 1; i <= produto; i++) {
+            System.out.println("Informe o valor de cada mercadoria: ");
+            valorMercadoria += ler.nextDouble();
         }
-
-        double total = 0.0D;
-
-        for(int i = 0; i < preco.length; ++i) {
-            total += preco[i];
-        }
-
-        double media = total / (double)preco.length;
-        System.out.println("A media aritmetica dos numeros informados foi de: " + media);
+        System.out.println("Valor total: " + valorMercadoria);
+        System.out.println("Valor media mercadorias:" + valorMercadoria / produto);
     }
 }
