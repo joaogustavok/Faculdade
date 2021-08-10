@@ -24,8 +24,8 @@ public class DepartamentoTest01 {
             funcionarios[i] = new Funcionario();
         }
         for (int i = 0; i < funcionarios.length; i++) {
-            funcionarios[i].setMatricula(Integer.parseInt(JOptionPane.showInputDialog("Insira o código: ")));
-            funcionarios[i].setNome(JOptionPane.showInputDialog("Insira o nome: "));
+            funcionarios[i].setMatricula(Integer.parseInt(JOptionPane.showInputDialog("Insira a matricula: ")));
+            funcionarios[i].setNome(JOptionPane.showInputDialog("Insira o nome do funcionario: "));
         }
 
         for (int i = 0; i < funcionarios.length; i++) {
