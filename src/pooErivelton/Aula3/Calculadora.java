@@ -24,7 +24,6 @@ public class Calculadora {
         else
             return num1 / num2;
     }
-
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
         calculadora.le();
