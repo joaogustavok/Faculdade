@@ -1,4 +1,4 @@
-package pooErivelton.Aula3;
+package pooErivelton.Aula03;
 
 public class CachorroTest02 {
     public static void main(String[] args) {

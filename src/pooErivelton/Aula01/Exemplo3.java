@@ -1,4 +1,4 @@
-package pooErivelton.Aula1;
+package pooErivelton.Aula01;
 
 public class Exemplo3 {
     String nome = new String();

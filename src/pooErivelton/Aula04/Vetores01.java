@@ -1,6 +1,4 @@
-package pooErivelton.Aula4;
-
-import pooRoberto.Aula3.Vetor.Vetor;
+package pooErivelton.Aula04;
 
 import javax.swing.*;
 

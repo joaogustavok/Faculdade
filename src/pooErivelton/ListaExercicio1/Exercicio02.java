@@ -21,6 +21,7 @@ public class Exercicio02 {
             System.out.printf("Informe o preço:\n");
             preco[i] = ler.nextDouble();
         }
+
         for (int i = 0; i < preco.length; i++) {
 
             for (int j = 0; j < preco.length; j++) {

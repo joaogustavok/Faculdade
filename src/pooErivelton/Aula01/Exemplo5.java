@@ -1,4 +1,4 @@
-package pooErivelton.Aula1;
+package pooErivelton.Aula01;
 
 import java.util.Scanner;
 

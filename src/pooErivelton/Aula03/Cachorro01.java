@@ -1,4 +1,4 @@
-package pooErivelton.Aula3;
+package pooErivelton.Aula03;
 
 public class Cachorro01 {
     public int tamanho;

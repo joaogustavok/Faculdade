@@ -1,6 +1,5 @@
-package pooErivelton.Aula1;
+package pooErivelton.Aula01;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Exemplo4 {

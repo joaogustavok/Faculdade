@@ -1,4 +1,4 @@
-package pooErivelton.Aula4;
+package pooErivelton.Aula04;
 
 import javax.swing.*;
 
