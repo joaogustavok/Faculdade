@@ -1,7 +1,6 @@
-package pooRoberto.ExerciciosFixacao;
+package pooRoberto.Aula5.ExerciciosFixacao;
 
 import javax.swing.*;
-import java.util.Scanner;
 
 public class DepartamentoTest01 {
     public static void main(String[] args) {

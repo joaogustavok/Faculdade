@@ -1,4 +1,4 @@
-package pooRoberto.ExerciciosFixacao;
+package pooRoberto.Aula5.ExerciciosFixacao;
 
 public class Funcionario {
     private int matricula;
